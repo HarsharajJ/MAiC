@@ -5,7 +5,7 @@ export async function POST(req: NextRequest) {
     const { message, history } = await req.json()
 
     // Connect to the Python backend
-    const response = await fetch("http://localhost:8000/api/chat", {
+    const response = await fetch("https://maic-8.onrender.com/api/chat", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
