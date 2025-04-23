@@ -8,7 +8,7 @@ from datetime import datetime
 # Import your existing chatbot code
 from langchain_core.messages import HumanMessage
 from langchain_core.runnables import RunnableConfig
-import main as main  # This imports your Python file
+import groqs as groqs  # This imports your Python file
 
 app = FastAPI()
 
