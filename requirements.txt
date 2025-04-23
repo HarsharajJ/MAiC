@@ -8,3 +8,4 @@ langchain-ollama
 langgraph
 chromadb
 gunicorn
+langchain_groq
